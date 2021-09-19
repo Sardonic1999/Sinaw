@@ -5,6 +5,7 @@ import Body_last from "./Body/Body_last";
 import Course from "./Courses/Course";
 import Video from "./Video/Video";
 import Price from "./Price/Price";
+import Google from "./Google/Google";
 
 const Root = () => {
   return (
@@ -15,6 +16,7 @@ const Root = () => {
       <Course />
       {/* <Video /> */}
       <Price />
+      <Google />
     </div>
   );
 };
