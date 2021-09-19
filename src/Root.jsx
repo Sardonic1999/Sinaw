@@ -3,6 +3,8 @@ import Navbar from "./Navbar/Navbar";
 import Body from "./Body/Body";
 import Body_last from "./Body/Body_last";
 import Course from "./Courses/Course";
+import Video from "./Video/Video";
+import Price from "./Price/Price";
 
 const Root = () => {
   return (
@@ -11,6 +13,8 @@ const Root = () => {
       <Body />
       <Body_last />
       <Course />
+      {/* <Video /> */}
+      <Price />
     </div>
   );
 };

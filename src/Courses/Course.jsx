@@ -9,6 +9,8 @@ import {
   Contact,
   CircleImg,
   Name,
+  Button,
+  ButtonWrap,
 } from "./Course_Style";
 import android from "../assets/android.png";
 import code from "../assets/code.png";
@@ -100,6 +102,9 @@ const Course = () => {
           </Contact>
         </Items>
       </WrapItem>
+      <ButtonWrap>
+        <Button>Show All Classes</Button>
+      </ButtonWrap>
     </Wrapper>
   );
 };

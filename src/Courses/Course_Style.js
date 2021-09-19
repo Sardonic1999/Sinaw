@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 1550px;
   height: fit-content;
-  /* display: flex; */
   background-color: #171836;
   padding-bottom: 50px;
   padding-top: 70px;
@@ -100,4 +99,22 @@ export const Name = styled.div`
   }
 `;
 
-export const Button = styled.button``;
+export const ButtonWrap = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+`;
+
+export const Button = styled.button`
+  width: 200px;
+  height: 50px;
+  border: 1px solid #f5443b;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 16px 32px;
+  cursor: pointer;
+  background: transparent;
+  color: #f5443b;
+  font-size: 16px;
+`;
