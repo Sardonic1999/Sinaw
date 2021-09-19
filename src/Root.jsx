@@ -6,6 +6,7 @@ import Course from "./Courses/Course";
 import Video from "./Video/Video";
 import Price from "./Price/Price";
 import Google from "./Google/Google";
+import Footer from "./Footer/Footer";
 
 const Root = () => {
   return (
@@ -17,6 +18,7 @@ const Root = () => {
       {/* <Video /> */}
       <Price />
       <Google />
+      <Footer />
     </div>
   );
 };
